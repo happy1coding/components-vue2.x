@@ -2,7 +2,7 @@
 绑定的model为form
 输入数组可生成查询栏,数组模板如下：
 [{
-    type: 'Select',         类型：Input(输入框), Select(选择框), BrandSel(品牌选择), DatePicker(时间选择),Button(按钮)
+    type: 'Select',         类型：Input(输入框), Select(选择框), DatePicker(时间选择),Button(按钮)
     value: 'group_id',      绑定字段
     label: '产品分组：',     说明字段，如是Button类型，可传空字符串或者不传
     isPrimary: false,       Button类型是否是primary,不是可不写该字段
